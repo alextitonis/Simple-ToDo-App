@@ -1,0 +1,1 @@
+CREATE TABLE todos(id INT, title TEXT);

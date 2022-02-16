@@ -1,0 +1,18 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "target": "es2018",
+        "noEmitHelpers" :false,
+        "noImplicitAny": false ,
+        "jsx": "preserve",
+        "strictFunctionTypes": true,
+        "sourceMap": true,
+        "outDir": "dist"
+    },
+    "include": ["src/**/*"],
+    "exclude": [
+        "node_modules",
+        "**/node_modules/*",
+        "**/*.spec.ts"
+    ]
+}
